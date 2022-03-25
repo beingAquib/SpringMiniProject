@@ -31,7 +31,7 @@ public class RegController {
 	}
 	
 	@PostMapping("/save")
-	public String save(@ModelAttribute Student student,Model m)
+	public String save(@ModelAttribute Student student,Model m) //pull test
 	{	
 		Integer amt=ser.svStu(student);
 		System.out.println("Done");
